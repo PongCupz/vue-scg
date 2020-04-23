@@ -18,10 +18,10 @@
                         <div class="error-body text-center">
                           <img src="../assets/images/qr.png" class="img-fluid" />
                           <h3 class="text-uppercase">Add ME </h3>
-                          <p class="text-muted m-t-30 m-b-30">Try send me "สวัสดี". If my bot can't awnser will show in report below</p>
+                          <p class="text-muted m-t-30 m-b-30">Try send me "สวัสดี". If my bot can't answer will show in report below</p>
                         </div>
                       </div>
-                      <h4 class="card-title">No Awnser Report</h4>
+                      <h4 class="card-title">No Answer Report</h4>
                       <div class="table-responsive">
                         <table class="table">
                           <thead>
