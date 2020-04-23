@@ -31,7 +31,7 @@
                             </tr>
                           </thead>
                           <tbody>
-                            <tr v-for="line in line_data">
+                            <tr v-for="line in line_data" :key="line.id">
                               <td>{{line.receive_date}}</td>
                               <td>{{line.message}}</td>
                             </tr>
