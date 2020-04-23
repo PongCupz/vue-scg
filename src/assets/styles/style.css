@@ -36,8 +36,8 @@ Author: Themedesigner
 Email: niravjoshi87@gmail.com
 File: scss
 */
-/******************* 
-Global Styles 
+/*******************
+Global Styles
 *******************/
 * {
   outline: none; }
@@ -1457,7 +1457,7 @@ Checkbox
   color: #ffffff; }
 
 /*******************
-Radios 
+Radios
 *******************/
 .radio {
   padding-left: 20px; }
@@ -1594,7 +1594,7 @@ Radios
   cursor: pointer; }
 
 /*******************
-File Upload 
+File Upload
 ******************/
 .fileupload {
   overflow: hidden;
@@ -1620,7 +1620,7 @@ Megamenu
     width: 100%;
     padding: 30px;
     margin-top: 0px;
-    background: url(../images/background/megamenubg.jpg) no-repeat right bottom #fff; }
+  }
   .mega-dropdown ul {
     padding: 0px; }
     .mega-dropdown ul li {
@@ -1664,7 +1664,7 @@ dropdown-item
 Custom-select
 ******************/
 .custom-select {
-  background: url(../images/custom-select.png) right 0.75rem center no-repeat; }
+}
 
 /*******************
 textarea
@@ -1768,8 +1768,8 @@ Author: Themedesigner
 Email: niravjoshi87@gmail.com
 File: scss
 */
-/*============================================================== 
- For all pages 
+/*==============================================================
+ For all pages
  ============================================================== */
 #main-wrapper {
   width: 100%; }
@@ -2230,7 +2230,7 @@ ul#themecolors {
   background: #01c0c8;
   border-color: #01c0c8; }
 
-/*============================================================== 
+/*==============================================================
  Buttons page
  ============================================================== */
 .button-group .btn {
@@ -2250,7 +2250,7 @@ ul#themecolors {
 .btn.active .text {
   display: none; }
 
-/*============================================================== 
+/*==============================================================
  Cards page
  ============================================================== */
 .card-actions {
@@ -2316,7 +2316,7 @@ ul#themecolors {
     background: #7460ee;
     border-color: #7460ee; }
 
-/*============================================================== 
+/*==============================================================
 Breadcrumb
  ============================================================== */
 .bc-colored .breadcrumb-item,
@@ -2332,7 +2332,7 @@ Breadcrumb
 .breadcrumb {
   margin-bottom: 0px; }
 
-/*============================================================== 
+/*==============================================================
  Ui-bootstrap
  ============================================================== */
 ul.list-icons {
@@ -2366,7 +2366,7 @@ ul.two-part {
 html body .accordion .card {
   margin-bottom: 0px; }
 
-/*============================================================== 
+/*==============================================================
  flot chart
  ============================================================== */
 .flot-chart {
@@ -2385,8 +2385,8 @@ html body .flotTip {
   color: #ffffff;
   padding: 5px 10px; }
 
-/*============================================================== 
-Easy pie chart 
+/*==============================================================
+Easy pie chart
  ============================================================== */
 .chart {
   position: relative;
@@ -2442,7 +2442,7 @@ Easy pie chart
     margin-left: 0.1em;
     font-size: .8em; }
 
-/*============================================================== 
+/*==============================================================
 Dashboard1 chart
  ============================================================== */
 .total-revenue,
@@ -2530,7 +2530,7 @@ Dashboard1 chart
     line-height: 12px;
     white-space: nowrap; }
 
-/*============================================================== 
+/*==============================================================
 Dashboard2 chart
  ============================================================== */
 .total-revenue2 .ct-series-a .ct-area {
@@ -2539,7 +2539,7 @@ Dashboard2 chart
 .total-revenue2 .ct-series-b .ct-area {
   fill: #e8fdeb; }
 
-/*============================================================== 
+/*==============================================================
 Dashboard3 chart
  ============================================================== */
 .total-sales {
@@ -2578,7 +2578,7 @@ Dashboard3 chart
 #calendar .fc-today-button {
   display: none; }
 
-/*============================================================== 
+/*==============================================================
 Dashboard4 chart
  ============================================================== */
 .total-revenue4 {
@@ -2602,13 +2602,13 @@ Dashboard4 chart
     fill: #55ce63;
     fill-opacity: 0.2; }
 
-/*============================================================== 
+/*==============================================================
 Widget-data
  ============================================================== */
 .sparkchart {
   margin-bottom: -2px; }
 
-/*============================================================== 
+/*==============================================================
 File upload
  ============================================================== */
 .btn-file {
@@ -2675,7 +2675,7 @@ File upload
 .fileinput.input-group > .btn-file {
   z-index: 1; }
 
-/*============================================================== 
+/*==============================================================
 widget-chart-page product review
  ============================================================== */
 .product-review {
@@ -2704,7 +2704,7 @@ widget-chart-page product review
   .profile-tab li a.nav-link:hover, .customtab li a.nav-link:hover {
     color: #009efb; }
 
-/*============================================================== 
+/*==============================================================
 Form addons page
 ============================================================== */
 /*Bootstrap select*/
@@ -2747,7 +2747,7 @@ Form addons page
 .input-form .btn {
   padding: 10px 12px; }
 
-/*============================================================== 
+/*==============================================================
 Form Material page
  ============================================================== */
 /*Material inputs*/
@@ -4604,12 +4604,10 @@ Stylish tooltip
   margin: -7px 0 0 -15px;
   width: 30px;
   height: 20px;
-  background: url(../images/tooltip/tooltip1.svg) no-repeat center center;
   background-size: 100%; }
 
 .tooltip-content3 {
   position: absolute;
-  background: url(../images/tooltip/shape1.svg) no-repeat center bottom;
   background-size: 100% 100%;
   z-index: 9999;
   width: 200px;
@@ -4870,7 +4868,6 @@ Error Page
 .error-box {
   height: 100%;
   position: fixed;
-  background: url(../images/background/error-bg.jpg) no-repeat center center #fff;
   width: 100%; }
   .error-box .footer {
     width: 100%;
@@ -6216,7 +6213,7 @@ File: scss
   color: #55ce63; }
 
 .has-success .form-control-success {
-  background-image: url(../images/icon/success.svg); }
+}
 
 .has-success .form-control {
   border-color: #55ce63; }
@@ -6225,7 +6222,7 @@ File: scss
   color: #ffbc34; }
 
 .has-warning .form-control-warning {
-  background-image: url(../images/icon/warning.svg); }
+}
 
 .has-warning .form-control {
   border-color: #ffbc34; }
@@ -6234,7 +6231,7 @@ File: scss
   color: #f62d51; }
 
 .has-danger .form-control-danger {
-  background-image: url(../images/icon/danger.svg); }
+}
 
 .has-danger .form-control {
   border-color: #f62d51; }
@@ -6296,16 +6293,16 @@ Author: Themedesigner
 Email: niravjoshi87@gmail.com
 File: scss
 */
-/*============================================================== 
- For Laptop & above all (1650px) 
+/*==============================================================
+ For Laptop & above all (1650px)
  ============================================================== */
 @media (min-width: 1650px) {
   .widget-app-columns {
     -webkit-column-count: 3;
     column-count: 3; } }
 
-/*============================================================== 
- For Laptop & above all (1370px) 
+/*==============================================================
+ For Laptop & above all (1370px)
  ============================================================== */
 @media (max-width: 1370px) {
   .widget-app-columns {
@@ -6314,8 +6311,8 @@ File: scss
   .container-fluid, .topbar .top-navbar, .scroll-sidebar {
     max-width: 1170px; } }
 
-/*-- ============================================================== 
- Small Desktop & above all (1024px) 
+/*-- ==============================================================
+ Small Desktop & above all (1024px)
  ============================================================== */
 @media (max-width: 1024px) {
   .container-fluid, .topbar .top-navbar, .scroll-sidebar {
@@ -6330,8 +6327,8 @@ File: scss
   .inbox-center a {
     width: 200px; } }
 
-/*-- ============================================================== 
- Ipad & above all(768px) 
+/*-- ==============================================================
+ Ipad & above all(768px)
  ============================================================== */
 @media (min-width: 768px) {
   .navbar-header {
@@ -6350,8 +6347,8 @@ File: scss
     flex-wrap: no-wrap !important;
     -webkit-flex-wrap: no-wrap !important; } }
 
-/*-- ============================================================== 
- Phone and below ipad(767px) 
+/*-- ==============================================================
+ Phone and below ipad(767px)
  ============================================================== */
 @media (max-width: 767px) {
   /*Header*/

@@ -29,7 +29,7 @@
                       <small class="text-muted p-t-30 db">Address</small>
                       <h6>292/407 The Niche Mono Ratchavipha Ratchada Rd. Ladyao Chatuchak Bangkok Thailand 10900</h6>
                       <div class="map-box">
-                          <iframe src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCs4A-QAbQHXH46bcE43eurOGSwnTaU83Q&q=The Niche Mono Ratchavipha" width="100%" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+                          <iframe width="250" height="150" id="gmap_canvas" src="https://maps.google.com/maps?ll=13.8310383,100.5400176&q=The Niche Mono Ratchavipha Society&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
                       </div> <small class="text-muted p-t-30 db">Social Profile</small>
                       <br/>
                       <a href="https://www.facebook.com/pongsak.luengon" target="_blank"><img src="../assets/images/facebook.jpg" alt="user" class="img-circle social" /></a>
@@ -255,5 +255,10 @@ export default {
     }
     img.social{
         width: 40px;
+    }
+    .my-lg-0{
+      position:absolute;
+      right:10px;
+
     }
 </style>

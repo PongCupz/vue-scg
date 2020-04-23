@@ -8,18 +8,24 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 import './assets/styles/style.css'
 import './assets/styles/colors/green.css'
-import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faFacebook } from '@fortawesome/free-brands-svg-icons'
+import * as VueGoogleMaps from 'vue2-google-maps'
+import VueStickyKit from 'vue-stickykit'
 
-library.add(faUserSecret)
-library.add(faFacebook)
+import 'vue-awesome/icons'
+import Icon from 'vue-awesome/components/Icon'
 
-Vue.component('font-awesome-icon', FontAwesomeIcon)
+Vue.component('v-icon', Icon)
+Vue.use(VueStickyKit)
 
+Vue.config.productionTip = false
 Vue.use(BootstrapVue)
 Vue.use(IconsPlugin)
+Vue.use(VueGoogleMaps, {
+  load: {
+    key: process.env.GG_KEY,
+    libraries: 'places' // necessary for places input
+  }
+})
 
 /* eslint-disable no-new */
 new Vue({
